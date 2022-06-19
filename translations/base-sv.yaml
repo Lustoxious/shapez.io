@@ -425,13 +425,13 @@ ingame:
         cyan: Turkos
         white: Vit
         uncolored: Ofärgad
-        black: Black
+        black: Svart
     shapeViewer:
         title: Lager
         empty: Tom
         copyKey: Kopiera nyckel
     connectedMiners:
-        one_miner: 1 Miner
+        one_miner: 1 Extraktor
         n_miners: <amount> Extraktor
         limited_items: Begränsad till <max_throughput>
     watermark:
@@ -461,25 +461,25 @@ ingame:
                 desc: Jag utvecklar det på min fritid!
             achievements:
                 title: Achievements
-                desc: Hunt them all!
+                desc: Ta dem alla!
             mods:
                 title: Modding support!
-                desc: Over 80 mods available!
+                desc: Över 80 mods är tillgängliga!
         titleV2: "Get the full version now on Steam to unlock:"
-        titleExpiredV2: Demo completed!
-        titleEnjoyingDemo: Enjoy the demo?
+        titleExpiredV2: Demo Avklarad!
+        titleEnjoyingDemo: Har du gillat demon?
     puzzleEditorSettings:
-        zoneTitle: Zone
-        zoneWidth: Width
-        zoneHeight: Height
+        zoneTitle: Zon
+        zoneWidth: Bredd
+        zoneHeight: Höjd
         trimZone: Trim
-        clearItems: Clear Items
-        share: Share
-        report: Report
-        clearBuildings: Clear Buildings
-        resetPuzzle: Reset Puzzle
+        clearItems: Tömm föremål
+        share: Dela
+        report: Rapportera
+        clearBuildings: Tömm Byggnader
+        resetPuzzle: Resetta Pusselt
     puzzleEditorControls:
-        title: Puzzle Creator
+        title: Pussel
         instructions:
             - 1. Place <strong>Constant Producers</strong> to provide shapes and
               colors to the player
@@ -600,12 +600,12 @@ buildings:
         endOfDemo: End of Demo
     wire:
         default:
-            name: Energy Wire
-            description: Allows you to transport energy.
+            name: Sladd
+            description: Tillåter dig att transportera energi.
         second:
-            name: Wire
-            description: Transfers signals, which can be items, colors or booleans (1 / 0).
-                Different colored wires do not connect.
+            name: Sladd
+            description: Förflytter signaler, vilket kan vara föremål, färger eller booleaner 
+                (1 / 0). Olika förgade sladdar kopplas ej tillsammans.
     balancer:
         default:
             name: Balancer
@@ -711,30 +711,30 @@ buildings:
             description: Målar virtuellt formen underifrån med formen från höger.
     item_producer:
         default:
-            name: Item Producer
+            name: Föremåls skapare
             description: Endast tillgänglig i sandlådeläge, avger en given signal från
                 kabellagret till det vanliga lagret.
     constant_producer:
         default:
-            name: Constant Producer
-            description: Constantly outputs a specified shape or color.
+            name: Konstant Producerare
+            description: Konstant avger en specifik form eller färg.
     goal_acceptor:
         default:
-            name: Goal Acceptor
-            description: Deliver shapes to the goal acceptor to set them as a goal.
+            name: Mål acceptanter
+            description: Levererar former till mål acceptantern för att sätta dem som ett mål.
     block:
         default:
             name: Block
-            description: Allows you to block a tile.
+            description: Gör det möjligt att blockera en tile. 
 storyRewards:
     reward_cutter_and_trash:
         title: Att klippa former
-        desc: You just unlocked the <strong>cutter</strong>, which cuts shapes in half
-            from top to bottom <strong>regardless of its
-            orientation</strong>!<br><br>Be sure to get rid of the waste, or
-            otherwise <strong>it will clog and stall</strong> - For this purpose
-            I have given you the <strong>trash</strong>, which destroys
-            everything you put into it!
+        desc: Du har just upplåst <strong>klipparen</strong>, vilket klipper former i 
+            mitten uppifrån och ner <strong>oavsett dess rotation</strong>
+            !<br><br>Var säker på att få bort dess skräp, eller <strong>kommer det 
+            fastna och sluta fungera</strong> - För denna användning
+            har jag gett dig <strong>Skräphanteringen</strong>, vilket förstör allt
+            du sätter in i den!
     reward_rotater:
         title: Rotation
         desc: <strong>Roteraren</strong> har blivit upplåst! Den roterar former 90
